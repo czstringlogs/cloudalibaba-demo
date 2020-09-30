@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloudalibaba-sentinel-dashboard</artifactId>
+    <artifactId>cloudalibaba-sentinel-dashboard-client</artifactId>
 
     <dependencies>
         <dependency>

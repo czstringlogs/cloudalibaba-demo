@@ -7,6 +7,10 @@
         <module>cloudalibaba-consumer</module>
         <module>cloudalibaba-gateway</module>
         <module>cloudalibaba-sentinel-dashboard-client</module>
+        <module>cloudalibaba-stream-provider</module>
+        <module>cloudalibaba-stream-consumer</module>
+        <module>cloudalibaba-stream-sender</module>
+        <module>cloudalibaba-stream-receiver</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -60,12 +64,20 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.2.1.RELEASE</version>
             </plugin>
         </plugins>
     </build>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Hoxton.SR8</version>
+                <type>pom</type>
+                <scope>runtime</scope>
+            </dependency>
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>

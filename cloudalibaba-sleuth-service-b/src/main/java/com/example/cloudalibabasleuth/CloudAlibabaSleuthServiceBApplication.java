@@ -1,0 +1,18 @@
+package com.example.cloudalibabasleuth;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author zqing
+ * @description: TODO
+ * @date: 2020/11/18 13:53
+ */
+@SpringBootApplication
+public class CloudAlibabaSleuthServiceBApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CloudAlibabaSleuthServiceBApplication.class,args);
+    }
+
+}

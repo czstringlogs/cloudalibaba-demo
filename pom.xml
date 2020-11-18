@@ -7,10 +7,10 @@
         <module>cloudalibaba-consumer</module>
         <module>cloudalibaba-gateway</module>
         <module>cloudalibaba-sentinel-dashboard-client</module>
-        <module>cloudalibaba-stream-provider</module>
-        <module>cloudalibaba-stream-consumer</module>
         <module>cloudalibaba-stream-sender</module>
         <module>cloudalibaba-stream-receiver</module>
+        <module>cloudalibaba-sleuth-service-a</module>
+        <module>cloudalibaba-sleuth-service-b</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
